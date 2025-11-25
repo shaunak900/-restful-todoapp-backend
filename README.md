@@ -30,8 +30,7 @@ Navigate to the Project Directory: cd todoappbackend
 Build and Run the Application: ./mvn spring-boot:run
 The application will start running at http://localhost:8080.
 To use H2 in-memory database: Comment out the H2 console part in application.properties and remove any related configurations in pom.xml.
-
-# spring.datasource.url=jdbc:h2:mem:testdb
+    spring.datasource.url=jdbc:h2:mem:testdb
 To use a MySQL database for testing: Ensure you have a MySQL database running locally. Edit the application.properties file with the MySQL datasource configuration provided.
 
 # MySQL datasource configuration
